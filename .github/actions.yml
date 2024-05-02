@@ -2,12 +2,12 @@ name: "Hello World"
 description: "greet someone and record them time"
 inputs:
   who-to-greet:
-  description: "who to greet"
-  required: true
-  default: "World"
+    description: "who to greet"
+    required: true
+    default: "World"
 outputs:
   time:
-  description: "the time we greeted you"
+    description: "the time we greeted you"
 
 runs:
   using: "docker"
